@@ -51,14 +51,13 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
 }
 
 .header-nav {
     display: flex;
     align-items: center;
     margin-right: auto;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -88,26 +87,20 @@ a {
 .header-menu {
     display: flex;
     gap: 40px;
-   
+    position: relative;
 }
 
 .header-menu-item {
     font-weight: 500;
     margin-right: 40px;
-    position: relative;
+   
 }
 
 .header-menu-item:last-child {
     margin: 0;
 }
 
-.header-menu-link ::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    border-radius: 2px;
+.header-menu-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -120,7 +113,7 @@ a {
     color: #404bbf;
 }
 
-
+.header-menu-link:focus {}
 
 
 .header-address {}
