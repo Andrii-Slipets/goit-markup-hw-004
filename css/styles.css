@@ -88,19 +88,26 @@ a {
 .header-menu {
     display: flex;
     gap: 40px;
-    position: relative;
+   
 }
 
 .header-menu-item {
     font-weight: 500;
     margin-right: 40px;
+    position: relative;
 }
 
 .header-menu-item:last-child {
     margin: 0;
 }
 
-.header-menu-link {
+.header-menu-link ::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -113,7 +120,7 @@ a {
     color: #404bbf;
 }
 
-.header-menu-link:focus {}
+
 
 
 .header-address {}
