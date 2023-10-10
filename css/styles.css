@@ -274,9 +274,8 @@ a {
     margin-bottom: 8px;
 }
 
-.icons-svg {
+.prioryti-icons-svg {
     width: 64px;
-    height: 64px;
 }
 
 
@@ -419,6 +418,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 .footer {
@@ -432,6 +432,7 @@ a {
 
 .footer-footer {
     display: flex;
+    align-items: baseline
 }
 
 .wrapper {
@@ -461,6 +462,7 @@ a {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 
 .social-media {}
@@ -473,9 +475,13 @@ a {
 .footer-link {
     display: flex;
     gap: 16px;
+    
 }
 
 .footer-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 40px;
     border-radius: 40px;
@@ -483,6 +489,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 .footer-soc-link:hover {
