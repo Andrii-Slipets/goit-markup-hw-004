@@ -437,6 +437,7 @@ a {
 
 .wrapper {
     margin-right: 120px;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -475,7 +476,7 @@ a {
 .footer-link {
     gap: 16px;
     display: flex;
-    
+
 }
 
 .footer-soc-link {
