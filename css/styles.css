@@ -165,11 +165,11 @@ a {
     background-position: center;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/foto/people-office\ .jpg);
+    url(../images/foto/people-office\.jpg);
 }
 
 .solutions-container {
-    
+ 
 }
 
 .solutions-title {
