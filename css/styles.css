@@ -274,8 +274,9 @@ a {
     margin-bottom: 8px;
 }
 
-.prioryti-icons-svg {
- 
+.icons-svg {
+    width: 64px;
+    height: 64px;
 }
 
 
@@ -339,6 +340,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 24px;
+ 
 }
 
 .our-list-item:hover {
@@ -360,8 +362,7 @@ a {
 
 .our-soc-link {
     fill: white;
-    display: flexgit;
-
+    
 }
 
 .our-soc-icon {}
