@@ -339,6 +339,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 24px;
+
  
 }
 .our-list-item {
@@ -349,23 +350,28 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-list-item:hover {
+.our-soc-link:hover {
     background-color: #404BBF;
 
 }
 
-.our-list-item ::after {}
+.our-soc-link :focus {
+    background-color: #404bbf  
+}
 
 
 .our-soc-link {
-    fill: white;
-    
+  
+
     
 }
 
-.our-soc-icon {}
+.our-soc-icon {
+    fill: white;
+}
 
 
 
