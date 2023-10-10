@@ -437,7 +437,6 @@ a {
 
 .wrapper {
     margin-right: 120px;
-    margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -493,13 +492,13 @@ a {
     background-color: #4D5AE5; 
 }
 
-.footer-soc-link:hover {
+.footer-soc-icons-link:hover {
     background-color: #31d0aa;
 }
-.footer-soc-link:focus {
+.footer-soc-icons-link:focus {
     background-color: #31d0aa;
 }
 
-.footer-soc-icons {
+.footer-soc-icons-link {
     fill: white;
 }
