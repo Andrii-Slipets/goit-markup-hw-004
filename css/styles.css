@@ -341,14 +341,6 @@ a {
     gap: 24px;
  
 }
-
-.our-list-item:hover {
-    background-color: #404BBF;
-
-}
-
-.our-list-item ::after {}
-
 .our-list-item {
     height: 40px;
     width: 40px;
@@ -359,8 +351,17 @@ a {
     align-items: center;
 }
 
+.our-list-item:hover {
+    background-color: #404BBF;
+
+}
+
+.our-list-item ::after {}
+
+
 .our-soc-link {
     fill: white;
+    
     
 }
 
