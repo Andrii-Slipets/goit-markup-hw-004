@@ -475,9 +475,14 @@ a {
 .footer-link {
     gap: 16px;
     display: flex;
+    
 }
 
 .footer-soc-link {
+ 
+   
+}
+.footer-soc-icons-link {
     height: 40px;
     width: 40px; 
     border-radius: 50%;
@@ -485,10 +490,6 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #4D5AE5; 
-   
-}
-.footer-soc-icons-link {
-  
 }
 
 .footer-soc-link:hover {
