@@ -361,13 +361,13 @@ a {
 
 }
 
-.our-soc-link :focus {
+.our-soc-link:focus {
     background-color: #404bbf;
 }
 
 
 .our-soc-icon {
-    fill: white;
+    fill:white;
 
 }
 
@@ -497,7 +497,9 @@ a {
 .social-media {}
 
 .footer-sabtitle {
-    padding-bottom: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
     color: #FFF;
 }
 
