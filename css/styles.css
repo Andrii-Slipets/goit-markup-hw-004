@@ -366,7 +366,7 @@ a {
 }
 
 
-.our-soc-icon {
+.our-soc-link {
     fill: white;
 
 }
@@ -406,9 +406,11 @@ a {
     display: block;
 
 }
-.portfolio-item:hover .portfolio-text-cower  {
-transform: translateY(0);
+
+.portfolio-item:hover .portfolio-text-cower {
+    transform: translateY(0);
 }
+
 .portfolio-cower-wrap {
     position: relative;
     overflow: hidden;
@@ -430,7 +432,7 @@ transform: translateY(0);
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #4d5ae5;
-
+    color: #f4f4fd;
 }
 
 .portfolio-meps {
